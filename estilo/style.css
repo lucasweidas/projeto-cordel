@@ -67,7 +67,7 @@ header  p {
 /* Cordel */
 
 .cordel-text {
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 4vw, 3rem);
     font-family: var(--font-cordel);
     margin-left: clamp(1rem, 5vw, 3rem);
     margin-top: clamp(3rem, 10vh, 6rem);
@@ -78,17 +78,18 @@ header  p {
     background: right center / cover no-repeat fixed;
     padding-block: clamp(3rem, 10vh, 6rem);
     margin-top: clamp(3rem, 10vh, 6rem);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
 #img-01 {
-    background-image: url(../imagens/background001.jpg);
+    background-image: url("../imagens/background001.jpg");
 }
 
 #img-02 {
-    background-image: url(../imagens/background002.jpg);
+    background-image: url("../imagens/background002.jpg");
 }
 
-.paralax-text {
+.paralax-img .cordel-text {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     padding: 0.5rem;
